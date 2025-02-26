@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>DOOM WORLD</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#ContainerInicio"><img id="logo-nav" src="./img/logo-nav.png" alt="Logo do jogo Doom"></a>
+    </nav>
+    <main>
+        <video autoplay muted loop>
+            <source src="./video/dooMmarine.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <div id="ContainerInicio">
+            <ul>
+                <li><a href="#ancora1">JOGOS DA SERIE</a></li>
+                <li><a href="#ancora3">Desenvolvedores</a></li>
+                <li><a href="#ancora2">NEW GAME</a></li>
+            </ul>
+        </div>
+        <div class="slides" id="ancora1">
+
+            <!-- ul>li*4#doom1>img+li>h1+p|c -->
+            <!-- ul>li*3.doom1>img|c -->
+            <div>
+                <div class="textoJogos">
+
+                    <h1 id="textoH1">DOOM 1</h1>
+                    <p id="textoP1">Doom é um clássico jogo de tiro em primeira pessoa (1993) onde você enfrenta
+                        hordas de demônios
+                        com
+                        ação rápida e violenta. Revolucionário, marcou o gênero FPS e a cultura dos games.
+                    </p>
+                    <button id="btnFalar">Falar Texto</button>
+                </div>
+
+            </div>
+            <ul>
+                <li id="doom1" onclick="trocarImgDoom1()">
+                    <img src="./img/doom94.png" alt="doom 1">
+                </li>
+                <!-- /.doom1 -->
+                <li onclick="trocarImgDoom2()">
+                    <img src="./img/doom2.png" alt="doom 2">
+                </li>
+                <!-- /.doom1 -->
+                <li onclick="trocarImgDoom3()">
+                    <img src="./img/doom3.png" alt="doom 3">
+                </li>
+                <!-- /.doom1 -->
+                <li onclick="trocarImgDoom4()">
+                    <img src="./img/doom64.png" alt="doom 64">
+                </li>
+                <!-- /.doom1 -->
+            </ul>
+            
+        </div>
+        
+        
+        <!-- div em Construção -->
+        
+        <div id="ancora3"></div>
+        <div id="containerDaHistoria">
+
+            <div class="text1">
+
+                <h1>Desenvolvimento do jogo doom</h1>
+
+
+                <p id="textoP2">
+
+                    "Doom" foi desenvolvido pela id Software, fundada por John Carmack, John Romero, Tom Hall e outros.
+                    Iniciado no final de 1992, o jogo evoluiu de uma sequência de Wolfenstein 3D para um projeto mais
+                    ambicioso, com Carmack criando um motor gráfico revolucionário 2.5D. Romero cuidou dos níveis e da
+                    jogabilidade, enquanto Hall desenvolveu a história e os personagens. A trilha sonora, de Bobby
+                    Prince, complementava a atmosfera do jogo. Lançado em 1993, Doom inovou com sua jogabilidade
+                    intensa, inteligência artificial avançada e foi um dos primeiros a ser distribuído online, '
+                    impulsionando a cultura de modding e jogos multiplayer.
+
+                </p>
+                <button id="btnFalar2">Falar Texto</button>
+            </div>
+
+
+
+            <div class="Image1">
+
+                <img src="./img/FotoDesenvolvedoresDoDoom.jpg " alt="FotoDesenvolvedoresDoDoom"
+                    class="fotoDesenvoldores">
+
+
+            </div>
+        </div>
+
+
+        <div class="doomGame" id="ancora2">
+            <div id="DOOM" class="dosbox-default"></div>
+            <ul>
+                <li>SETAS: MOVE</li>
+                <li>W: USE</li>
+                <li>S: FIRE</li>
+                <li>SPACE: RUN</li>
+                <li>STRAFE ON: ALT</li>
+                <li>STRAFE: A, D CHANGE WEAPON: 1, 2, 3, 4, 5, 6, 7</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul class="footerContainer">
+                <li><a onclick="alerta()" href="./PDF/doom.pdf" target="_blank"><img src="./img/doomfooter2.png"
+                            alt="logo"></a></li>
+                <li>
+                    <a href="#">
+                        <p>&copy; Pump Network all right reserved</p>
+                        <p>
+                            <img src="./img/pumpNet.png" alt="logo">
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <p>contato@pumpnetwork.com
+                    </p>
+                </li>
+            </ul>
+            <!-- /.fotterConteiner -->
+        </div>
+        <!-- /.footer -->
+    </main>
+
+    <!--  
+    
+     <div id="music" >   
+         <img src="./img/play.png" alt="" onclick="playPause()">
+         <audio id="meuAudio" controls  loop src="./music/DOOM Eternal OST - The Only Thing They Fear Is You (Extended Intro).mp3" type="audio/mpeg">
+
+   </div> -->
+
+
+
+    </audio>
+
+    <script src="./js/js-dos-api.js"></script>
+    <script src="./js/scriptDoom.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
