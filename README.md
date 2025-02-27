@@ -7,7 +7,7 @@ Bem-vindo ao projeto que prova que o clássico Doom pode rodar em qualquer dispo
 Este projeto foi criado para demonstrar a versatilidade do Doom, um dos jogos mais icônicos da história dos videogames, e como ele pode ser adaptado para funcionar em diferentes dispositivos. Aqui, você encontrará:  
 
 ✅ **Doom em qualquer lugar** – Uma demonstração de como o jogo pode rodar em diversos dispositivos.  
-✅ **Estilização criativa** – Design moderno e responsivo para uma experiência visual agradável.  
+✅ **Estilização criativa** – Design moderno para uma experiência visual agradável.  
 ✅ **Interatividade** – Funcionalidades implementadas com JavaScript para tornar o projeto dinâmico.  
 
 ---
