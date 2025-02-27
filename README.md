@@ -24,7 +24,7 @@ Este projeto foi criado para demonstrar a versatilidade do Doom, um dos jogos ma
 ---
 
 ### 👨‍💻 Desenvolvedores  
-<section style = " display:flex; ">
+<section style = " display:flex; width:100%; flex-direction: row; align-itens: center; ">
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/00000000?v=4" width=115><br><sub>Gabriel Benevenuti</sub>](https://github.com/) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/00000000?v=4" width=115><br><sub>Guilherme Pimenta</sub>](https://github.com/) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/57300906?v=4" width=115><br><sub> Jonathan Santos </sub>](https://github.com/jtn-san) |
 | :---: | :---: | :---: |
 
