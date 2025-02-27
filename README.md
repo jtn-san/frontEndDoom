@@ -1,4 +1,4 @@
-# frontEndDoom
+<h1 align="center"> # frontEndDoom </h1>
 Projeto Front-End criado para fins educativos no Senac, utilizando HTML, CSS e JS. 
 
 -- Projeto com estilização e criado par amostrar que o Doom pode rodar em qualquer dispositivo. 
