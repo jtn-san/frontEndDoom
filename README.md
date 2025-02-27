@@ -24,13 +24,13 @@ Este projeto foi criado para demonstrar a versatilidade do Doom, um dos jogos ma
 ---
 
 ### 👨‍💻 Desenvolvedores  
-
+<section style = " display:flex; ">
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/00000000?v=4" width=115><br><sub>Gabriel Benevenuti</sub>](https://github.com/) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/00000000?v=4" width=115><br><sub>Guilherme Pimenta</sub>](https://github.com/) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/57300906?v=4" width=115><br><sub> Jonathan Santos </sub>](https://github.com/jtn-san) |
 | :---: | :---: | :---: |
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/131829034?v=4" width=115><br><sub> Ryan Souza</sub>](https://github.com/SouRyan) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/00000000?v=4" width=115><br><sub>Victor Silva</sub>](https://github.com/) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/00000000?v=4" width=115><br><sub>Vinicius Rocha </sub>](https://github.com/) |
 | :---: | :---: | :---: |
-
+</section>
 ---
 
 **Doom em Qualquer Dispositivo** é um projeto que une nostalgia, tecnologia e criatividade, mostrando que até os clássicos podem ganhar novas formas! 🚀
