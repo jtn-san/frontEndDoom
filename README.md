@@ -7,7 +7,7 @@ Projeto Front-End criado para fins educativos no Senac, utilizando HTML, CSS e J
 https://github.com/user-attachments/assets/7ed7c651-0ba1-40cc-9b82-7a196992b971
 
 
-# Developers by:
+<h3 align="center"> # Developers by: </h3>
 
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/00000000?v=4" width=115><br><sub>Gabriel Benevenut</sub>](https://github.com/) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/00000000?v=4" width=115><br><sub>Guilherme Pimenta</sub>](https://github.com/) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/57300906?v=4" width=115><br><sub> Jonathan Santos </sub>](https://github.com/jtn-san) |
